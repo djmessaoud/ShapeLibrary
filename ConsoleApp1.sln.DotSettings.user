@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7f437738_002De1be_002D432d_002Dbd28_002Df64997bf8bce/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CircleTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::1883AC92-402B-4631-BB67-515DC68BFEC6::net8.0::Tests.Tests+CircleTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=94d031ab_002Dd613_002D4ff6_002Db33e_002D68d97cfac533/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TriangleTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::1883AC92-402B-4631-BB67-515DC68BFEC6::net8.0::Tests.Tests+TriangleTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::1883AC92-402B-4631-BB67-515DC68BFEC6::net8.0::Tests.Tests+CircleTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

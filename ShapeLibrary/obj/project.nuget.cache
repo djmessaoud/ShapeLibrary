@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZNnpzqZsMAM=",
+  "success": true,
+  "projectFilePath": "/home/c0pp3r/RiderProjects/ConsoleApp1/ShapeLibrary/ShapeLibrary.csproj",
+  "expectedPackageFiles": [
+    "/home/c0pp3r/.nuget/packages/bigmath/0.5.0/bigmath.0.5.0.nupkg.sha512",
+    "/home/c0pp3r/.nuget/packages/telesharp.tl/1.0.0-ci00000/telesharp.tl.1.0.0-ci00000.nupkg.sha512",
+    "/home/c0pp3r/.nuget/packages/wtelegramclient/4.2.4/wtelegramclient.4.2.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BigMath 0.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "BigMath",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'TeleSharp.TL 1.0.0-CI00000' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "TeleSharp.TL",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

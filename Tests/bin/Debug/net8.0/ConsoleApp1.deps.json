@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "TeleSharp.TL": "1.0.0-CI00000",
+          "WTelegramClient": "4.2.4"
+        },
+        "runtime": {
+          "ConsoleApp1.dll": {}
+        }
+      },
+      "BigMath/0.5.0": {
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/BigMath.dll": {
+            "assemblyVersion": "0.5.0.0",
+            "fileVersion": "0.5.0.0"
+          }
+        }
+      },
+      "TeleSharp.TL/1.0.0-CI00000": {
+        "dependencies": {
+          "BigMath": "0.5.0"
+        },
+        "runtime": {
+          "lib/net452/TeleSharp.TL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "WTelegramClient/4.2.4": {
+        "runtime": {
+          "lib/net8.0/WTelegramClient.dll": {
+            "assemblyVersion": "4.2.4.0",
+            "fileVersion": "4.2.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BigMath/0.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WLfK2Z0uDWJcPBK6sKV1RBa9pMCeILSdh35B3O58FLlAErjCWrEohCIqh5hIqLbVxEwXnCFU4+S59OwSPLh60Q==",
+      "path": "bigmath/0.5.0",
+      "hashPath": "bigmath.0.5.0.nupkg.sha512"
+    },
+    "TeleSharp.TL/1.0.0-CI00000": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pOi7HOXn2zPmgkd31fbDXqu2NtJYAI7WAP8T670wnWXH0INtuKOnybnSZDpmaRX83Wtb1GyCO+v9SJp20b3T9A==",
+      "path": "telesharp.tl/1.0.0-ci00000",
+      "hashPath": "telesharp.tl.1.0.0-ci00000.nupkg.sha512"
+    },
+    "WTelegramClient/4.2.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MMrbQzPvajFHAqAfkvqOeD92GAwxCbaZzeVlXmXgPHc7OvnW0lAoT40WQL2a+3h0ifCViPEmizRG/Y9sv70jtg==",
+      "path": "wtelegramclient/4.2.4",
+      "hashPath": "wtelegramclient.4.2.4.nupkg.sha512"
+    }
+  }
+}

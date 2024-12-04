@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/c0pp3r/RiderProjects/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj": {}
+  },
+  "projects": {
+    "/home/c0pp3r/RiderProjects/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/c0pp3r/RiderProjects/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
+        "projectName": "ConsoleApp1",
+        "projectPath": "/home/c0pp3r/RiderProjects/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
+        "packagesPath": "/home/c0pp3r/.nuget/packages/",
+        "outputPath": "/home/c0pp3r/RiderProjects/ConsoleApp1/ConsoleApp1/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/home/c0pp3r/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "TeleSharp.TL": {
+              "target": "Package",
+              "version": "[1.0.0-CI00000, )"
+            },
+            "WTelegramClient": {
+              "target": "Package",
+              "version": "[4.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

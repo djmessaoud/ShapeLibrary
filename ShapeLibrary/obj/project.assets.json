@@ -1,0 +1,186 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "BigMath/0.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/BigMath.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/BigMath.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "TeleSharp.TL/1.0.0-CI00000": {
+        "type": "package",
+        "dependencies": {
+          "BigMath": "0.5.0"
+        },
+        "compile": {
+          "lib/net452/TeleSharp.TL.dll": {}
+        },
+        "runtime": {
+          "lib/net452/TeleSharp.TL.dll": {}
+        }
+      },
+      "WTelegramClient/4.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/WTelegramClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/WTelegramClient.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BigMath/0.5.0": {
+      "sha512": "WLfK2Z0uDWJcPBK6sKV1RBa9pMCeILSdh35B3O58FLlAErjCWrEohCIqh5hIqLbVxEwXnCFU4+S59OwSPLh60Q==",
+      "type": "package",
+      "path": "bigmath/0.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bigmath.0.5.0.nupkg.sha512",
+        "bigmath.nuspec",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/BigMath.XML",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/BigMath.dll"
+      ]
+    },
+    "TeleSharp.TL/1.0.0-CI00000": {
+      "sha512": "pOi7HOXn2zPmgkd31fbDXqu2NtJYAI7WAP8T670wnWXH0INtuKOnybnSZDpmaRX83Wtb1GyCO+v9SJp20b3T9A==",
+      "type": "package",
+      "path": "telesharp.tl/1.0.0-ci00000",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/TeleSharp.TL.dll",
+        "telesharp.tl.1.0.0-ci00000.nupkg.sha512",
+        "telesharp.tl.nuspec"
+      ]
+    },
+    "WTelegramClient/4.2.4": {
+      "sha512": "MMrbQzPvajFHAqAfkvqOeD92GAwxCbaZzeVlXmXgPHc7OvnW0lAoT40WQL2a+3h0ifCViPEmizRG/Y9sv70jtg==",
+      "type": "package",
+      "path": "wtelegramclient/4.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/WTelegramClient.dll",
+        "lib/net5.0/WTelegramClient.xml",
+        "lib/net8.0/WTelegramClient.dll",
+        "lib/net8.0/WTelegramClient.xml",
+        "lib/netstandard2.0/WTelegramClient.dll",
+        "lib/netstandard2.0/WTelegramClient.xml",
+        "logo.png",
+        "wtelegramclient.4.2.4.nupkg.sha512",
+        "wtelegramclient.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "TeleSharp.TL >= 1.0.0-CI00000",
+      "WTelegramClient >= 4.2.4"
+    ]
+  },
+  "packageFolders": {
+    "/home/c0pp3r/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/c0pp3r/RiderProjects/ConsoleApp1/ShapeLibrary/ShapeLibrary.csproj",
+      "projectName": "ShapeLibrary",
+      "projectPath": "/home/c0pp3r/RiderProjects/ConsoleApp1/ShapeLibrary/ShapeLibrary.csproj",
+      "packagesPath": "/home/c0pp3r/.nuget/packages/",
+      "outputPath": "/home/c0pp3r/RiderProjects/ConsoleApp1/ShapeLibrary/obj/",
+      "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
+      "configFilePaths": [
+        "/home/c0pp3r/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "TeleSharp.TL": {
+            "target": "Package",
+            "version": "[1.0.0-CI00000, )"
+          },
+          "WTelegramClient": {
+            "target": "Package",
+            "version": "[4.2.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BigMath 0.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "BigMath",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'TeleSharp.TL 1.0.0-CI00000' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "TeleSharp.TL",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
